@@ -96,9 +96,9 @@
                                                         </div>
                                                         <h4><a class="product_name" href="single-product.html">${item.name}</a></h4>
                                                         <div class="price-box">
-                                                            <span class="new-price new-price-2">$${item.convertPrice()}</span>
-                                                            <span class="old-price">$${item.price}</span>
-                                                            <span class="discount-percentage">${item.discout}%</span>
+                                                            <span class="new-price new-price-2">${item.discout >0 ? item.showPrice(): ""}</span>
+                                                            <span class="${item.discout >0 ? "old-price" : "new-price"}">${item.showPriceDiscout()}</span>
+                                                            <span class="discount-percentage">${item.convertDiscout()}</span>
                                                         </div>
                                                     </div>
                                                     <div class="add-actions">

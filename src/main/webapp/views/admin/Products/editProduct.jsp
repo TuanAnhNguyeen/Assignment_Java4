@@ -10,11 +10,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="breadcrumb-holder">
-                            <h1 class="main-title float-left">My Profile</h1>
-                            <ol class="breadcrumb float-right">
-                                <li class="breadcrumb-item">Home</li>
-                                <li class="breadcrumb-item active">Profile</li>
-                            </ol>
+                            <h1 class="main-title float-left">Sủa Sản Phẩm</h1>
                             <div class="clearfix"></div>
                         </div>
                     </div>
@@ -25,7 +21,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
                         <div class="card mb-3">
                             <div class="card-header">
-                                <h3><i class="far fa-file-image"></i> Avatar</h3>
+                                <h3><i class="far fa-file-image"></i> Chọn Ảnh Đại Diện Sản Phẩm</h3>
                             </div>
 
                             <div class="card-body text-center">

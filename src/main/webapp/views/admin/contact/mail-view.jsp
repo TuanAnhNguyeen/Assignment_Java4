@@ -55,7 +55,7 @@
                                         <b>người gửi</b>: ${contact.fullname}<br/>
                                         <b> email</b>: ${contact.email}
                                         <br/>
-                                        <b>Thời gian gửi: </b>: ${contact.day}<br/>
+                                        <b>Thời gian gửi: </b>: ${contact. convertDateTime()}<br/>
                                     </div>
                                 </div>
                             </form>

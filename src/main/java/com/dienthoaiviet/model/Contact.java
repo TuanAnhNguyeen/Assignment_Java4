@@ -1,6 +1,7 @@
 package com.dienthoaiviet.model;
 
 import javax.persistence.*;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @NamedQueries({
@@ -76,5 +77,9 @@ public class Contact {
 
     public void setSubject(String subject) {
         this.subject = subject;
+    }
+    public String convertDateTime(){
+        SimpleDateFormat sdf = new SimpleDateFormat(" dd-MM-yyyy hh:mm:ss");
+        return sdf.format(day);
     }
 }

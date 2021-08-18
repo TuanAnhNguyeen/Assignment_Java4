@@ -43,7 +43,7 @@
                                                         <c:if test="${item.status == false}">
                                                         <h5><a href="# ">${item.subject}</a></h5>
                                                         </c:if>
-                                                        <p>${item.day}</p>
+                                                        <p>${item. convertDateTime()}</p>
                                                         <p>${item.note}</p>
                                                     </td>
 

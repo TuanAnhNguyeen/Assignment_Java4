@@ -17,7 +17,7 @@
                 <div class="col-lg-3 col-md-4">
                     <div class="header-top-left">
                         <ul class="phone-wrap">
-                            <li><span>Telephone Enquiry: </span><a href="#"> 0978825572</a></li>
+                            <li><span>Liên Hệ: </span><a href="#"> 0978825572</a></li>
                         </ul>
                     </div>
                 </div>
@@ -26,34 +26,10 @@
                 <div class="col-lg-9 col-md-8">
                     <div class="header-top-right">
                         <ul class="ht-menu">
-                            <!-- Begin Setting Area -->
+
                             <li>
-                                <div class="ht-setting-trigger"><span>Setting</span></div>
-                                <div class="setting ht-setting">
-                                    <ul class="ht-setting-list">
-                                        <li><a href="login-register.html">My Account</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="login-register.html">Sign In</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <!-- Setting Area End Here -->
-                            <!-- Begin Currency Area -->
-                            <li>
-                                <span class="currency-selector-wrapper">Currency :</span>
-                                <div class="ht-currency-trigger"><span>USD $</span></div>
-                                <div class="currency ht-currency">
-                                    <ul class="ht-setting-list">
-                                        <li><a href="#">EUR €</a></li>
-                                        <li class="active"><a href="#">USD $</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <!-- Currency Area End Here -->
-                            <!-- Begin Language Area -->
-                            <li>
-                                <span class="language-selector-wrapper">Language :</span>
-                                <div class="ht-language-trigger"><span>English</span></div>
+                                <span class="language-selector-wrapper">Ngôn Ngữ :</span>
+                                <div class="ht-language-trigger"><span>Tiếng Việt</span></div>
                                 <div class="language ht-language">
                                     <ul class="ht-setting-list">
                                         <li>
@@ -117,9 +93,9 @@
                     <!-- Begin Header Middle Searchbox Area -->
                     <form action="<%=request.getContextPath()%>/homepage/search" method="post" class="hm-searchbox">
                         <select class="nice-select select-search-category">
-                            <option value="0">All</option>
+                            <option value="0">Tất Cả</option>
                         </select>
-                        <input type="text" name="key" placeholder="Enter your search key ...">
+                        <input type="text" name="key" placeholder="Nhập Sản Phẩn Cần Tìm ...">
                         <button class="li-btn" type="submit"><i class="fa fa-search"></i></button>
                     </form>
                     <!-- Header Middle Searchbox Area End Here -->

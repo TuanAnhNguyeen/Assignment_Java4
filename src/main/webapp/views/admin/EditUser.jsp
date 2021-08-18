@@ -79,7 +79,7 @@
 
                                             <div class="bg-info text-white mt-3" style="height: 40px">
                                                 <label for="files" class="btn">Chọn Ảnh</label>
-                                                <input id="files" name="img" style="visibility:hidden;" type="file" required accept=".jpg,.png"  >
+                                                <input id="files" name="img" style="visibility:hidden;" type="file"  accept=".jpg,.png"  >
                                             </div>
                                             <p class="text-danger">${errorImage}</p>
                                         </div>

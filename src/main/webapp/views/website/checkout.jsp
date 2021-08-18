@@ -107,7 +107,7 @@
                                 </tr>
                                 <tr class="order-total">
                                     <th>Tổng Tiền Thanh Toán</th>
-                                    <td><strong><input name="sumMoney" value="${sumMoney}đ" style="text-align: center;font-size: 14px" class="text-danger" readonly></strong></td>
+                                    <td><strong><input name="sumMoney" value="${sumMoney}" style="text-align: center;font-size: 14px;width: 50%" class="text-danger" readonly>VNĐ</strong></td>
                                 </tr>
                                 </tfoot>
                             </table>

@@ -221,7 +221,7 @@ public class ProductsServlet extends HttpServlet {
         if (id.isEmpty()) {
             req.setAttribute("erorrId", "ID Trống!!!!");
             check = false;
-        }else if(productsDao.findByKeyProduct(id)!=null && method.equals(MethodconstantDao.INSERT)){
+        }else if(productsDao.findByIdProduct(id)!=null && method.equals(MethodconstantDao.INSERT)){
             req.setAttribute("erorrId", "ID Đã Tồn Tại!!!!");
             check = false;
         }

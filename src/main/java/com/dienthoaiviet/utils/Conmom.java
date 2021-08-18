@@ -13,7 +13,7 @@ public class Conmom {
         int cout = 0;
         for (Contact x : listContact){
             if(x.isStatus()){
-                cout=+1;
+                cout++;
             }
         }
         return cout;
