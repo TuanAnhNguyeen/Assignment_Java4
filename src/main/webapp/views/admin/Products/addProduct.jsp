@@ -151,7 +151,7 @@
                                         <label> <a type="button" id="addColor">Thêm Chi Tiết sản phẩm</a></label>
                                         <div>
                                        Màu Sắc : <input name="color" type="text" style="width: 100px " >
-                                       Số Lượng: <input name="quantity" type="number" style="width: 100px" min="1">
+                                       Số Lượng: <input name="quantity" type="number" style="width: 100px" value="0" min="1">
                                         </div>
                                         <p class="text-danger">${errorColor}</p>
                                     </div>

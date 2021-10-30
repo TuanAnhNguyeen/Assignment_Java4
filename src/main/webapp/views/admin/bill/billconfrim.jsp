@@ -50,15 +50,15 @@
                     <div class="breadcrumb-holder">
                         <h1 class="main-title float-left">Quản Lí Hóa Đơn</h1>
                         <ol class="breadcrumb float-right">
-                            <div class="card-header">
-                                <a class="btn btn-primary" href="<%=request.getContextPath()%>/admin/bill/xacnhan">Chờ xác Nhận </a>
-                            </div>
-                            <div class="card-header">
-                                <a class="btn btn-primary" href="<%=request.getContextPath()%>/admin/bill/giaohang">Chưa Thanh Toán </a>
-                            </div>
-                            <div class="card-header">
-                                <a class="btn btn-primary" href="<%=request.getContextPath()%>/admin/bill">Đã Hoàn Thành</a>
-                            </div>
+                                <div class="card-header">
+                                    <a class="btn btn-primary" href="<%=request.getContextPath()%>/admin/bill/xacnhan">Chờ xác Nhận </a>
+                                </div>
+                                <div class="card-header">
+                                    <a class="btn btn-primary" href="<%=request.getContextPath()%>/admin/bill/giaohang">Chưa Thanh Toán </a>
+                                </div>
+                                <div class="card-header">
+                                    <a class="btn btn-primary" href="<%=request.getContextPath()%>/admin/bill">Đã Hoàn Thành</a>
+                                </div>
                         </ol>
                         <div class="clearfix"></div>
                     </div>

@@ -4,7 +4,8 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class CookieUtils {
+public class
+CookieUtils {
     public static Cookie add(String name, String value, int hours, HttpServletResponse resp) {
         Cookie cookie = new Cookie(name, value);
         cookie.setMaxAge(hours * 60 * 60);
